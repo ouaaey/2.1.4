@@ -6,6 +6,7 @@ import org.springframework.stereotype.Component;
 
 @Component
 public class KoscheiTheDeathless {
+
     private Ocean1 ocean;
 
     @Autowired
@@ -16,6 +17,4 @@ public class KoscheiTheDeathless {
     public String getRulesByDeth() {
         return "На свете есть океан , " + ocean.toString();
     }
-
-
 }
